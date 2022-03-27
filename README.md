@@ -20,7 +20,8 @@ pyproj
 gcs2llh converts geocentric XYZ coordinates to WGS84 Latitude-Longitude-Height coordinate. 
 
     Usage: 
-    llh = gcs2llh(xyz)
+    >>> import geomtools
+    >>> llh = geomtools.gcs2llh(xyz)
     
     Input: 
     xyz: Geocentric coordinates (N*3, where N is the number of sites, in meters) 
@@ -34,7 +35,8 @@ gcs2llh converts geocentric XYZ coordinates to WGS84 Latitude-Longitude-Height c
 ll2UTM converts Longitude-Latitude coordinates in WGS84 into the specified UTM coordinates. 
 
     Usage: 
-    xy = ll2UTM(ll, EPSG)
+    >>> import geomtools
+    >>> xy = geomtools.ll2UTM(ll, EPSG)
     
     Input: 
         ll: Longitude (Column 0) and Latitude (Column 1) in degrees 
