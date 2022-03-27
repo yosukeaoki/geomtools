@@ -2,16 +2,21 @@
 Tools to convert Geocentric to WGS84 and WGS84 to UTM. 
 
 ## Prerequisite
+
 numpy
+
 pyproj
 
 ## Installation of prerequisites
+
 % conda install -c conda-forge numpy pyproj 
 
 ## Running the test program
+
 % python example.py
 
 ## gcs2llh
+
 gcs2llh converts geocentric XYZ coordinates to WGS84 Latitude-Longitude-Height coordinate. 
 
     Usage: 
@@ -25,6 +30,7 @@ gcs2llh converts geocentric XYZ coordinates to WGS84 Latitude-Longitude-Height c
 
 
 ## ll2UTM
+
 ll2UTM converts Longitude-Latitude coordinates in WGS84 into the specified UTM coordinates. 
 
     Usage: 
